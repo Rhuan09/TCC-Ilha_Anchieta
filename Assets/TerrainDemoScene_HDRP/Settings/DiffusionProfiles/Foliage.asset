@@ -12,17 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2686e09ec7aef44bad2843e4416f057, type: 3}
   m_Name: Foliage
   m_EditorClassIdentifier: 
+  m_Version: 1
   profile:
-    scatteringDistance: {r: 0.7490196, g: 0.59618276, b: 0.24061769, a: 1}
-    scatteringDistanceMultiplier: 1.0104712
-    transmissionTint: {r: 1, g: 1, b: 1, a: 1}
-    texturingMode: 1
-    smoothnessMultipliers: {x: 1, y: 1}
-    lobeMix: 0.5
-    diffuseShadingPower: 1
+    scatteringDistance: {r: 1, g: 0.44967064, b: 0, a: 1}
+    transmissionTint: {r: 23.968628, g: 23.968628, b: 23.968628, a: 1}
+    texturingMode: 0
     transmissionMode: 1
-    thicknessRemap: {x: 0, y: 1.5}
+    thicknessRemap: {x: 0, y: 0.84644806}
     worldScale: 1
     ior: 1.4
     hash: 1080305144
-  m_Version: 2
