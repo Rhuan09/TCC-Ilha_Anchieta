@@ -281,7 +281,7 @@ Material:
     - _WavingTint: {r: 0.7, g: 0.6, b: 0.5, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &4680004479060832589
+--- !u!114 &3055267118340988641
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

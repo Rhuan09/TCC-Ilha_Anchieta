@@ -38,7 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< Updated upstream
   m_IndirectSpecularColor: {r: 2237.3203, g: 2379.4558, b: 3438.7588, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 2245.9543, g: 2391.9475, b: 3461.8013, a: 1}
+>>>>>>> Stashed changes
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1503,6 +1507,37 @@ Transform:
   - {fileID: 1552708584}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1263915852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1263915853}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1263915853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263915852}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4867.1626, y: -12.569732, z: 1886.39}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1267703048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2055,11 +2090,14 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a090fdd7e7aa98748a6d1fd3bcbfd5fc, type: 3}
+<<<<<<< Updated upstream
 --- !u!4 &1762064495 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3456223814829169485, guid: d94d5af7870112d4bb0b7ca6ded0f7cd, type: 3}
   m_PrefabInstance: {fileID: 1042403835}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1795119439
 GameObject:
   m_ObjectHideFlags: 0
@@ -2832,5 +2870,26 @@ SceneRoots:
   - {fileID: 2013410475}
   - {fileID: 1252375356}
   - {fileID: 720609399}
+<<<<<<< Updated upstream
   - {fileID: 1971590856}
   - {fileID: 1931408752}
+=======
+  - {fileID: 323402063}
+  - {fileID: 754252049}
+  - {fileID: 1082418761}
+  - {fileID: 506183716}
+  - {fileID: 1042403835}
+  - {fileID: 1543902019}
+  - {fileID: 1800844540}
+  - {fileID: 2013987879}
+  - {fileID: 1126448164}
+  - {fileID: 1267703048}
+  - {fileID: 176368043}
+  - {fileID: 720514259}
+  - {fileID: 1643985878}
+  - {fileID: 206155931}
+  - {fileID: 1402890743}
+  - {fileID: 822048613}
+  - {fileID: 1652685575}
+  - {fileID: 1263915853}
+>>>>>>> Stashed changes
