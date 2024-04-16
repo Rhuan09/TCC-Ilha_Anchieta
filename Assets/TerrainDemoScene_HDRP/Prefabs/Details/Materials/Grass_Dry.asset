@@ -13,11 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_DiffusionProfileReferences:
-<<<<<<< Updated upstream
   - {fileID: 11400000, guid: 78322c7f82657514ebe48203160e3f39, type: 2}
-=======
-  - {fileID: 11400000, guid: 16c7c1d43c1734b4b9fd6e420650bca0, type: 2}
->>>>>>> Stashed changes
   m_MaterialReferences: []
 --- !u!21 &2100000
 Material:
@@ -146,11 +142,7 @@ Material:
     - _CullModeForward: 0
     - _DepthOffsetEnable: 0
     - _DiffusionProfileHash: 3.6025481
-<<<<<<< Updated upstream
     - _Diffusion_Profile: 3.5648174
-=======
-    - _Diffusion_Profile: 3.780309
->>>>>>> Stashed changes
     - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 1
@@ -214,11 +206,7 @@ Material:
     - Terrain_Scale: {r: 0, g: 0, b: 0, a: 0}
     - _BlendScale: {r: 2, g: 2, b: 0, a: 0}
     - _DiffusionProfileAsset: {r: -6.7543813e+27, g: -5.0377814e-36, b: 1.6338481e-38, a: -3.3616492e+16}
-<<<<<<< Updated upstream
     - _Diffusion_Profile_Asset: {r: 2.2888926e+38, g: 1.2389358e-26, b: 7.69327e-37, a: 0.00018220427}
-=======
-    - _Diffusion_Profile_Asset: {r: -6.6581504e+12, g: -0.00000016772259, b: 59.747776, a: -3.1901394e-19}
->>>>>>> Stashed changes
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Subsurface_Scattering_Color: {r: 1, g: 1, b: 1, a: 0}
