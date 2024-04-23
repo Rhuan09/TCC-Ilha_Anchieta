@@ -128,9 +128,9 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GlowColor: {r: 0.75735295, g: 0.41001523, b: 0.41001523, a: 0.9764706}
     - _InteractAmpFreqRad: {r: 1, g: 1, b: 1, a: 1}
-    - _InteractPos: {r: 4809.374, g: 28.081532, b: 1923.4938, a: 0}
+    - _InteractPos: {r: 4836.944, g: 14.816019, b: 1915.708, a: 0}
     - _InteractPos1: {r: 175.60927, g: 6.609695, b: -17.998617, a: 0}
-    - _InteractSpeed: {r: -0.024515899, g: -0.31516334, b: 0.0061289747, a: 0}
+    - _InteractSpeed: {r: 0.024631986, g: -0.029924013, b: 0.012315993, a: 0}
     - _OceanCenter: {r: 0, g: 0, b: 0, a: 0}
     - _Params1: {r: 11.86, g: 24.5, b: 19.6, a: 0}
     - _Params2: {r: 9.72, g: 18.71, b: 9.89, a: 0}
