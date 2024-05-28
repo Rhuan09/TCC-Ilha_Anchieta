@@ -53,3 +53,8 @@
 *.unity linguist-generated
 *Terreno_Ilha.asset filter=lfs diff=lfs merge=lfs -text
 Terreno_Ilha.asset filter=lfs diff=lfs merge=lfs -text
+Assets/Terrenos/TerrainData_0a56b735-ae12-41f1-a583-6cce6fa705aa.asset filter=lfs diff=lfs merge=lfs -text
+Assets/Terrenos/TerrainData_114be27e-7bfb-49f8-a1b5-6acb09c5563d.asset filter=lfs diff=lfs merge=lfs -text
+Assets/Terrenos/TerrainData_28f1d8ca-9739-47cb-9063-7c15b8985d1b.asset~ filter=lfs diff=lfs merge=lfs -text
+Assets/Terrenos/TerrainData_76b09fdd-f3d3-480b-9b87-eca4878045f4.asset filter=lfs diff=lfs merge=lfs -text
+Assets/Terrenos/TerrainData_bfd5f6f7-beff-42ad-8f75-91f793bd1238.asset filter=lfs diff=lfs merge=lfs -text
