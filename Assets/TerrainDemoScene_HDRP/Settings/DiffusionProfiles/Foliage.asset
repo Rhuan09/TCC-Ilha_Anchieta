@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Foliage
   m_EditorClassIdentifier: 
   profile:
-    scatteringDistance: {r: 0.7490196, g: 0.33681214, b: 0, a: 1}
-    scatteringDistanceMultiplier: 1.3350785
-    transmissionTint: {r: 23.968628, g: 23.968628, b: 23.968628, a: 1}
-    texturingMode: 0
+    scatteringDistance: {r: 0.7490196, g: 0.59618276, b: 0.24061769, a: 1}
+    scatteringDistanceMultiplier: 1.0104712
+    transmissionTint: {r: 1, g: 1, b: 1, a: 1}
+    texturingMode: 1
     smoothnessMultipliers: {x: 1, y: 1}
     lobeMix: 0.5
     diffuseShadingPower: 1
     transmissionMode: 1
-    thicknessRemap: {x: 0, y: 0.84644806}
+    thicknessRemap: {x: 0, y: 1.5}
     worldScale: 1
     ior: 1.4
     hash: 1080305144

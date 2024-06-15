@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6274163376757259068
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 9
 --- !u!114 &-2757543553903331286
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -37,8 +24,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Bush_Red
-  m_Shader: {fileID: -6465566751694194690, guid: dfa3b96612ed4df4a97b7fd06217ba23,
-    type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: dfa3b96612ed4df4a97b7fd06217ba23, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -407,7 +393,6 @@ Material:
     - _ATDistance: 1
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0
-    - _AlphaClip: 1
     - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 1
     - _AlphaCutoffPostpass: 0.5
@@ -416,35 +401,20 @@ Material:
     - _AlphaCutoffShadowBias: 0.1
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
-    - _AlphaToMask: 1
+    - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _Anisotropy: 0
     - _Asperity: 1
-    - _BUILTIN_AlphaClip: 1
-    - _BUILTIN_Blend: 0
-    - _BUILTIN_CullMode: 2
-    - _BUILTIN_DstBlend: 0
-    - _BUILTIN_QueueControl: -1
-    - _BUILTIN_QueueOffset: 0
-    - _BUILTIN_SrcBlend: 1
-    - _BUILTIN_Surface: 0
-    - _BUILTIN_ZTest: 4
-    - _BUILTIN_ZWrite: 1
-    - _BUILTIN_ZWriteControl: 0
     - _BackfaceSmoothnessScale: 1
     - _BaseMapEncoding: 0
     - _BillboardMode: 0
     - _BillboardShadowMode: 0
-    - _Blend: 0
     - _BlendMode: 0
-    - _BlendModePreserveSpecular: 0
     - _BumpScale: 1
-    - _CastShadows: 1
     - _CoatCoverage: 1
     - _CoatIOR: 0.5
     - _CoatMask: 0
     - _ConservativeDepthOffsetEnable: 0
-    - _Cull: 0
     - _CullMode: 0
     - _CullModeForward: 0
     - _CullModeNormalFlip: 1
@@ -459,7 +429,6 @@ Material:
     - _DetailSmoothnessScale: 1
     - _DiffusionProfile: 2
     - _DiffusionProfileHash: 3.5648174
-    - _Diffusion_Profile: 0
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
@@ -483,7 +452,6 @@ Material:
     - _DoubleSidedNormalMode: 1
     - _Drag: 1
     - _DstBlend: 0
-    - _DstBlend2: 0
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
@@ -497,7 +465,6 @@ Material:
     - _EnableSpecularOcclusion: 0
     - _EnableWind: 0
     - _EnergyConservingSpecularColor: 1
-    - _ExcludeFromTUAndAA: 0
     - _FadeBias: 1
     - _ForceForwardEmissive: 0
     - _FullDetailNormalBlendThreshold: 1
@@ -525,7 +492,6 @@ Material:
     - _LinkDetailsWithBase: 1
     - _MaskMapEncoding: 1
     - _MaterialID: 5
-    - _MaterialTypeMask: 32
     - _Metallic: 0
     - _MetallicRemapMax: 0
     - _MetallicRemapMin: 0
@@ -542,12 +508,8 @@ Material:
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
     - _Parallax: 0.02
-    - _PerPixelSorting: 0
     - _PreRefractionPass: 0
-    - _QueueControl: -1
-    - _QueueOffset: 0
     - _RayTracing: 0
-    - _ReceiveShadows: 1
     - _ReceivesSSR: 0
     - _ReceivesSSRTransparent: 0
     - _RefractionMode: 0
@@ -575,17 +537,16 @@ Material:
     - _StencilRefGBuffer: 2
     - _StencilRefMV: 32
     - _StencilWriteMask: 6
-    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDepth: 8
     - _StencilWriteMaskDistortionVec: 4
-    - _StencilWriteMaskGBuffer: 15
-    - _StencilWriteMaskMV: 41
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
     - _Stiffness: 1
     - _SubsurfaceMask: 1
     - _SubsurfaceProfile: 0
     - _SubsurfaceRadius: 1
     - _SupportDBuffer: 0
     - _SupportDecals: 0
-    - _Surface: 0
     - _SurfaceType: 0
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
@@ -639,16 +600,13 @@ Material:
     - _WindRangeLvl1: 0.5
     - _WindRangeLvlB: 5
     - _WindRangeRadius: 2.5
-    - _WorkflowMode: 1
     - _WorldMapping: 0
-    - _ZTest: 4
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 3
     - _ZTestMode: 8
     - _ZTestModeDistortion: 8
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _ZWriteControl: 0
     m_Colors:
     - Fade_Color: {r: 0, g: 0, b: 0, a: 0}
     - _BackfaceBaseColorScale: {r: 1, g: 1, b: 1, a: 1}
@@ -658,9 +616,7 @@ Material:
     - _BaseColorRandomize: {r: 0, g: 0, b: 0, a: 0.05}
     - _Color: {r: 0.8666667, g: 0.8666667, b: 0.8666667, a: 1}
     - _DetailMap_TO: {r: 1, g: 1, b: 0, a: 0}
-    - _DiffusionProfileAsset: {r: 2.2888926e+38, g: 1.2389358e-26, b: 7.69327e-37,
-        a: 0.00018220427}
-    - _Diffusion_Profile_Asset: {r: 0, g: 0, b: 0, a: 0}
+    - _DiffusionProfileAsset: {r: 2.2888926e+38, g: 1.2389358e-26, b: 7.69327e-37, a: 0.00018220427}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
@@ -673,7 +629,6 @@ Material:
     - _PeeledBarkUVRangeScale: {r: 0, g: 1, b: 2, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Subsurface_Scattering_Color: {r: 1, g: 1, b: 1, a: 0}
     - _ThicknessRemap: {r: 0.38016787, g: 1, b: 0, a: 0}
     - _Thickness_Remap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
@@ -697,16 +652,3 @@ MonoBehaviour:
   m_DiffusionProfileReferences:
   - {fileID: 11400000, guid: 78322c7f82657514ebe48203160e3f39, type: 2}
   m_MaterialReferences: []
---- !u!114 &1818584293549286242
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 0

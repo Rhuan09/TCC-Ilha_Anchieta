@@ -24,8 +24,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Rock_Overgrown_D
-  m_Shader: {fileID: -6465566751694194690, guid: 48fe816c3f1833d4d8c09289fe3981cb,
-    type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 48fe816c3f1833d4d8c09289fe3981cb, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
