@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 9056252037414250879}
   - component: {fileID: 3505893319277170209}
   m_Layer: 0
-  m_Name: Prefab_Forest_black_cherry_03
+  m_Name: Arbustro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
