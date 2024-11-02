@@ -3,7 +3,7 @@ guid: c49ef192a57a5af42a728163b2468c8a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -129,6 +129,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 267961
   packageName: 'Starter Assets: Character Controllers | URP'
-  packageVersion: 1.0.1
+  packageVersion: 2.0
   assetPath: Assets/Starter Assets/Sample/FirstPersonController/Playground/ReflectionProbe-2.exr
-  uploadId: 653737
+  uploadId: 697084

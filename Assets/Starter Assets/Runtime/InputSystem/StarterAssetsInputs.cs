@@ -43,6 +43,11 @@ namespace StarterAssets
 		{
 			SprintInput(value.isPressed);
 		}
+
+		public void OnAction(InputValue value)
+		{
+			ActionInput(value);
+		}
 #endif
 
 
@@ -51,6 +56,13 @@ namespace StarterAssets
 			move = newMoveDirection;
 		} 
 
+		public void ActionInput(InputValue inputValue)
+		{
+			if(inputValue.isPressed) 
+				FirstPersonController.OnClick?.Invoke();
+
+		}
+	
 		public void LookInput(Vector2 newLookDirection)
 		{
 			look = newLookDirection;
