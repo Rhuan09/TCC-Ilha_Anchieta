@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4382812313698334950
+--- !u!1 &371693925466168213
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7374249229328997667}
-  - component: {fileID: 318311218664918866}
-  - component: {fileID: 402267739679075199}
+  - component: {fileID: 1750250167912832790}
+  - component: {fileID: 1396794648248067650}
+  - component: {fileID: 8528530661985261482}
   m_Layer: 0
-  m_Name: Forest_black_cherry_03_LOD0
+  m_Name: beech_plant_01_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 81
   m_IsActive: 1
---- !u!4 &7374249229328997667
+--- !u!4 &1750250167912832790
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4382812313698334950}
-  serializedVersion: 2
+  m_GameObject: {fileID: 371693925466168213}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9056252037414250879}
+  m_Father: {fileID: 7903578372507464605}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &318311218664918866
+--- !u!33 &1396794648248067650
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4382812313698334950}
-  m_Mesh: {fileID: 3321976456693972333, guid: 48db8f629b5b62046938deb87352149c, type: 3}
---- !u!23 &402267739679075199
+  m_GameObject: {fileID: 371693925466168213}
+  m_Mesh: {fileID: -2292343195193648033, guid: d8a17242847f4e54b8ed05595b281638, type: 3}
+--- !u!23 &8528530661985261482
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4382812313698334950}
+  m_GameObject: {fileID: 371693925466168213}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -58,12 +58,10 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2d2815501de959e4c8b79faad1cbeed4, type: 2}
+  - {fileID: 2100000, guid: 8ac9c1bc2b550544d8f7d8f65c92bcae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85,7 +83,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &8124522047909151228
+--- !u!1 &2759802819176584568
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,46 +91,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3436332568311597922}
-  - component: {fileID: 5522879566865395314}
-  - component: {fileID: 6655821019341235950}
+  - component: {fileID: 1829975698645931874}
+  - component: {fileID: 6380022402639755188}
+  - component: {fileID: 3321716826777181333}
   m_Layer: 0
-  m_Name: Forest_black_cherry_03_LOD1
+  m_Name: beech_plant_01_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 81
   m_IsActive: 1
---- !u!4 &3436332568311597922
+--- !u!4 &1829975698645931874
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8124522047909151228}
-  serializedVersion: 2
+  m_GameObject: {fileID: 2759802819176584568}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9056252037414250879}
+  m_Father: {fileID: 7903578372507464605}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5522879566865395314
+--- !u!33 &6380022402639755188
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8124522047909151228}
-  m_Mesh: {fileID: -7394218598640201338, guid: 48db8f629b5b62046938deb87352149c, type: 3}
---- !u!23 &6655821019341235950
+  m_GameObject: {fileID: 2759802819176584568}
+  m_Mesh: {fileID: 119374222384001795, guid: d8a17242847f4e54b8ed05595b281638, type: 3}
+--- !u!23 &3321716826777181333
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8124522047909151228}
+  m_GameObject: {fileID: 2759802819176584568}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -143,12 +141,10 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2d2815501de959e4c8b79faad1cbeed4, type: 2}
+  - {fileID: 2100000, guid: 8ac9c1bc2b550544d8f7d8f65c92bcae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -170,7 +166,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &9056252037414286687
+--- !u!1 &7903578372507430845
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,52 +174,52 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9056252037414250879}
-  - component: {fileID: 3505893319277170209}
+  - component: {fileID: 7903578372507464605}
+  - component: {fileID: 2352582146017842371}
   m_Layer: 0
-  m_Name: Arbustro
+  m_Name: a_media_pouca_folhagem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 80
   m_IsActive: 1
---- !u!4 &9056252037414250879
+--- !u!4 &7903578372507464605
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9056252037414286687}
-  serializedVersion: 2
+  m_GameObject: {fileID: 7903578372507430845}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.074821, y: -0.16667, z: -0.029299}
-  m_LocalScale: {x: 2.0267818, y: 1.208588, z: 1.9064054}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7374249229328997667}
-  - {fileID: 3436332568311597922}
+  - {fileID: 1750250167912832790}
+  - {fileID: 1829975698645931874}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!205 &3505893319277170209
+--- !u!205 &2352582146017842371
 LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9056252037414286687}
+  m_GameObject: {fileID: 7903578372507430845}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: -0.072873235, y: 0.79890513, z: 0.032327116}
-  m_Size: 1.5995955
+  m_LocalReferencePoint: {x: 0.03674555, y: 0.8162227, z: 0.17126298}
+  m_Size: 1.6347805
   m_FadeMode: 1
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.46893817
+  - screenRelativeHeight: 0.25
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 402267739679075199}
-  - screenRelativeHeight: 0.04133772
+    - renderer: {fileID: 8528530661985261482}
+  - screenRelativeHeight: 0.05022864
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 6655821019341235950}
+    - renderer: {fileID: 3321716826777181333}
   m_Enabled: 1
