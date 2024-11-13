@@ -15,11 +15,11 @@ Material:
   - _ALPHATEST_ON
   - _DISABLE_DECALS
   - _DISABLE_SSR_TRANSPARENT
+  - _MATERIAL_FEATURE_TRANSMISSION
   m_InvalidKeywords:
   - _DISABLE_DBUFFER
   - _MASKMAP0
   - _MASKMAP1
-  - _MATERIAL_FEATURE_TRANSMISSION
   - _NORMALMAP
   - _NORMALMAP0
   - _NORMALMAP1
@@ -208,6 +208,7 @@ Material:
     - _DoubleSidedNormalMode: 1
     - _Drag: 0.1
     - _DstBlend: 0
+    - _DstBlend2: 0
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
@@ -219,6 +220,7 @@ Material:
     - _EnableSpecularOcclusion: 0
     - _EnableWind: 1
     - _EnergyConservingSpecularColor: 1
+    - _ExcludeFromTUAndAA: 0
     - _HdrpVersion: 1
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
@@ -237,6 +239,7 @@ Material:
     - _IridescenceThickness: 1
     - _LinkDetailsWithBase: 1
     - _MaterialID: 5
+    - _MaterialTypeMask: 32
     - _Metallic: 0
     - _NormalMapSpace: 0
     - _NormalScale: 1
@@ -246,6 +249,7 @@ Material:
     - _PPDMinSamples: 5
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
+    - _PerPixelSorting: 0
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
@@ -277,7 +281,7 @@ Material:
     - _SurfaceType: 0
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
-    - _Thickness: 0.3
+    - _Thickness: 0
     - _ThicknessMultiplier: 1
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
@@ -323,3 +327,4 @@ Material:
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
     - _VertexNormalMultiply: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
